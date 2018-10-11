@@ -1,56 +1,18 @@
-# currency-converter
+## Instructions
 
-> currency_converter_project
+- Clone or download the repository
+- $ cd currency-converter-app
+- $ `npm install` to install dependencies
+- $ `npm run dev` to run development server
+- $ `npm run test` to run test scripts
 
-## About
+## Test scripts coverage
+- 100%
 
-This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.
+## Endpoints
+- `/convert-currency`
+-- query parameters: to={currency symbol}, from={currency symbol}, amount={number}
+- `/convert-currency/export-csv`
+-- query parameters: to={currency symbol(multiple allowed, separated by comma)}, from={currency symbol}, amount={number}
 
-## Getting Started
-
-Getting up and running is as easy as 1, 2, 3.
-
-1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
-2. Install your dependencies
-
-    ```
-    cd path/to/currency-converter; npm install
-    ```
-
-3. Start your app
-
-    ```
-    npm start
-    ```
-
-## Testing
-
-Simply run `npm test` and all your tests in the `test/` directory will be run.
-
-## Scaffolding
-
-Feathers has a powerful command line interface. Here are a few things it can do:
-
-```
-$ npm install -g @feathersjs/cli          # Install Feathers CLI
-
-$ feathers generate service               # Generate a new Service
-$ feathers generate hook                  # Generate a new Hook
-$ feathers help                           # Show all commands
-```
-
-## Help
-
-For more information on all the things you can do with Feathers visit [docs.feathersjs.com](http://docs.feathersjs.com).
-
-## Changelog
-
-__0.1.0__
-
-- Initial release
-
-## License
-
-Copyright (c) 2018
-
-Licensed under the [MIT license](LICENSE).
+## Currently being served in: https://joms-currency-api.herokuapp.com/
