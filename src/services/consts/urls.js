@@ -1,0 +1,1 @@
+module.exports.CURRENCY_CONVERTER = 'https://free.currencyconverterapi.com/api/v6/convert';
